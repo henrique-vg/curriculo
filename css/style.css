@@ -1,0 +1,263 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+
+/* css da página Principal */
+header {
+	background: #0F1626;
+	padding: 30px 0;
+}
+
+.caixa {
+	max-width: 940px;
+	margin: auto;
+}
+
+h1 {
+	color: #AB987A;
+	text-align: center;
+	font-size: 50px;
+	padding: 20px 0;
+}
+
+header p {
+	color: #AB987A;
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+main {
+	background: #F5F5F5;
+}
+
+.botao-inicio {
+	padding: 40px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.botao-inicio li {
+	text-align: center;
+	width: 270px;
+	border:  2px solid #000000;
+	border-radius: 10px;
+	margin: 0 15px;
+}
+
+.botao-inicio li:hover {
+	border-color: #1E90FF;
+}
+
+.botao-inicio li:hover p {
+	color: #1E90FF;
+}
+
+.botao-inicio a {
+	text-decoration: none;
+	display: block;
+	padding: 30px 0px;
+}
+
+main li p {
+	margin: 20px 0 0 0;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+footer {
+	background: #AB987A;
+}
+
+.rede-social {
+	text-align: center;
+}
+
+.rede-social li {
+	display: inline-block;
+	width: 30%;
+	padding: 26px 20px;
+}
+
+.rede-social a {
+	text-decoration: none;
+}
+
+footer li p {
+	display: inline-block;
+	margin: 10px 5px;
+	color: #0F1626;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+footer li p:hover {
+	color: red;
+}
+
+
+/* css da página Qualificações */
+.botao-demais {
+	padding: 15px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.botao-demais li {
+	margin: 0 1.5%;
+	border:  2px solid #AB987A;
+	border-radius: 10px;
+}
+
+.botao-demais li:hover {
+	border-color: #5F9EA0;
+}
+
+.botao-demais li:hover a {
+	color: #5F9EA0;
+}
+
+.botao-demais a {
+	text-decoration: none;
+	color: #AB987A;
+	font-weight: bold;
+	font-size: 18px;
+	display: block;
+	padding: 10px 15px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 0 0 0;
+    max-width: 940px;
+    margin: auto;
+}
+
+.lista {
+	padding: 25px 0;
+}
+
+.lista li {
+	color: black;
+	font-size: 16px;
+	max-width: 940px;
+	margin: 5px auto;
+}
+
+
+/* css da página Experiências */
+.experiencias {
+	padding: 30px 0 0 0;	
+}
+
+.experiencias-empresas {
+	display: flex;
+	padding-bottom: 40px;
+	max-width: 940px;
+	margin: auto;
+}
+
+.experiencias-empresas img {
+	margin-right: 10px;
+}
+
+.experiencias h3 {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 0 5px 0;
+}
+
+.experiencias h4 {
+	font-size: 12px;
+	padding: 0 0 15px 0;
+}
+
+.experiencias p {
+	color: black;
+	font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+	.caixa {
+		max-width: 700px;
+	}
+
+	h2 {
+		padding: 20px 0 0 35px;
+	}
+
+	.lista {
+		padding: 25px 35px;
+	}
+
+	.experiencias {
+		padding: 30px 35px 0 35px;
+	}
+
+	.experiencias img {
+		margin: 0 10px 10px 0;
+	}
+
+	.experiencias p {
+		margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+	h1 {
+		font-size: 30px;
+	}
+
+	header p {
+		font-size: 14px;
+	}
+
+	h2 {
+		padding: 20px 0 0 25px;
+		font-size: 18px;
+	}
+
+	.caixa {
+		max-width: 325px;
+	}
+
+	.botao-inicio {
+		padding: 30px 50px 0 50px;
+		flex-direction: column;
+	}
+
+	.botao-inicio li {
+		width: 100%;
+		margin: 0 0 30px 0;
+	}
+
+	.rede-social li {
+		padding: 25px 20px 15px 20px;
+	}
+
+	.botao-demais a {
+		font-size: 16px;
+		padding: 10px;
+	}
+
+	.lista {
+		padding: 25px;
+	}
+
+	.lista li {
+		font-size: 14px;
+	}
+
+	.experiencias {
+		padding: 30px 25px 0 25px;
+	}
+
+	.experiencias img {
+		margin: 0 10px 10px 0;
+	}
+
+	.experiencias p {
+		margin: 0;
+	}
+}
